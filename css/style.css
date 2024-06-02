@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+.red-font{
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .font500{
+    font-weight: 500;
+    font-size: 20px;
+
+  }
+  .nav-item{
+  
+  }
+.navbar-toggler-icon i {
+    font-size: 25px;
+}
+
+
+
+.HEROIMG{
+ margin-top: -150px;
+ 
+}
+
+
+
+
+.navbar{
+    border-bottom: 0.1px solid #11111133;
+    display: flex;
+    justify-content: space-between;
+margin: 0 30px;
+}
+.shadowboxhero img{
+    background-color: white;
+width: 70%;
+padding: 5px;
+border-radius: 20px;    box-shadow: 0px 0px 24px 0px #00000033;
+}
+.bg{
+    background: url(img/bg.png)no-repeat center center/cover;
+}
+.navbar-nav {
+    justify-content: right;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.btn-outline{
+    color: #7E57C2;
+background-color: transparent;
+border: 1px solid #7E57C2 ;
+border-radius: 12px;
+
+font-size: 18px;
+
+padding: 18px 41px 18px 41px;
+}
+.purple-text{
+    color: #7E57C2;
+}
+.purple-btn{
+padding: 15px 40px;
+background-color: #7E57C2;
+border: none;
+border-radius: 12px;
+color: white;
+
+font-size: 20px;
+} 
+
+
+.greypra{
+    color: #555555;
+    font-weight: 500;
+}
+.nav-link{
+    color: #111111;
+}
+.content-right{
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+.border-buttom{
+    height: 3px;
+    width: 40%;
+    background-color:  #FDD835 ;
+margin: 15px 0;
+background-image: linear-gradient(to right, #FDD835 , #7E57C2);
+
+}
+.center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;                
+    justify-content: center;
+position: relative;
+}
+.center-content h1{
+font-size: 60px;
+}
+
+
+.container-clm-card{
+    box-shadow: 0px 0px 21px 0px #0000002E;
+    text-align: center;
+    justify-content: center;
+    padding: 25px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+} 
+.container-clm-card p{                                                                      
+    font-family: "Poppins", sans-serif;
+}
+.pra-grey{                                                                                  
+    color: #555555;
+}
+.icon-container-sm{
+    box-shadow: 0px 1px 6px 10px #fdd8355e;
+
+    background-color: #FDD835;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+.underline{
+  border-bottom: 1px solid #7E57C2;
+  padding-bottom: 5px;
+}
+.yellowshade{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+    background-color: #FFFAE7 ;
+text-align: center;
+padding: 50px 100px;
+flex-direction: column;
+position: relative;
+}
+.zindex2{
+    z-index: 32;
+   position: relative;
+}
+.bgdotline{
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 1px;
+    width: 90%;
+}.bgdotline2{
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    right:  1px;
+    width: 95%;
+}
+.bgdotline3{
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left:  1px;
+    width: 95%;
+}.bgdotline4{
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    right:  1px;
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+
+/* 2col---------------------- */
+.shadowbox{
+    width: 100%;
+    box-shadow: 0px 0px 24px 0px #00000033;
+padding: 15px ;
+border-radius: 30px;
+position: relative;
+background-color: white;
+}
+.img-width100{
+    width: 100%;
+   
+}
+.topleft{
+    position: absolute;
+    top: -41px;
+    left: -30px;
+    width: 100px;
+    height: 100px;
+}
+.btmright{
+    position: absolute;
+    right: -40px;
+    bottom: -50px;
+}
+.clmcentertext{
+    display: flex;
+    flex-direction: column;
+ 
+    justify-content: center;
+    height: 100%;
+}                                           
+.purpleshade{
+    margin-top: 200px;
+background-color: #F2EEF9;
+padding: 40px 20px;
+width: 100%;
+}
+.dotpurple li{
+    margin: 20px 0;
+    color: #555555; 
+   
+}
+li::marker {
+    color: #7E57C2;
+
+  }
+
+  .mt-100{
+margin-top: 100px;
+margin-bottom: 100px;
+  }
+
+
+
+.clm-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-right: 100px;
+}
+  .clm-text ul li{
+color: #555555;
+  margin: 15px 0;
+  }
+
+
+
+
+
+  .yellowlastsection{
+  background-color: #FDD835;
+  width: 100%;
+  height: 320px;
+  border-radius: 30px;
+  display: flex;
+padding: 50px;
+  justify-content: center;
+position: relative;
+text-align: center;
+display: flex;
+flex-direction: column;
+}
+
+  .whitering{
+    position: absolute;
+    bottom: -40px;
+    left: -10px;
+  }
+  .whitering2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .borderpurple {
+    position: absolute;
+    top: -37px;
+    left: -34px;
+    height: 123%;
+}  .borderpurple2 {
+    position: absolute;
+    top: -37px;
+    right:  -34px;
+    height: 123%;
+}
+  .relative{
+    padding: 0px;
+    position: relative;
+
+  }
+
+
+  footer{
+    background-color: #7E57C2;
+    padding: 30px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+
+
+
+
+
+
+
+  /* media queries-------------------------- */
+
+  @media only screen and (max-width: 1100px) {
+  .navbar-brand img {
+width: 50%;
+text-align: left;
+  }
+  
+    .navbar-nav{
+
+        width: 50%;
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        }
+
+.pra-grey{
+    font-size: 13px;
+}
+.underline{
+    font-size: 14px;
+}
+
+.container-clm-card{
+    box-shadow: 0px 0px 21px 0px #0000002E;
+    text-align: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+} 
+
+.icon-container-sm {
+    box-shadow: 0px 1px 6px 10px #fdd8355e;
+    background-color: #FDD835;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+.clmcentertext  h2{
+    font-size: 20px;
+}
+.clmcentertext  h1{
+    font-size: 25px;
+}
+.clm-text {
+ 
+    padding-right: 0;
+}
+.clm-text  h1{
+    font-size: 30px;
+}.clm-text ul li {
+    font-size: 17px;
+    color: #555555;
+    margin: 15px 0;
+}
+.yellowshade {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FFFAE7;
+    text-align: center;
+    padding: 10px 0px;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+.clmcentertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.shadowbox{
+    margin: 40px 0;
+}
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    .btmright {
+        width: 70;
+        position: absolute;
+        right: 1;
+        bottom: -77px;
+    }
+
+    .topleft {
+        position: absolute;
+        top: -16px;
+        left: -8px;
+        width: 100px;
+        height: 100px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .btmright {
+            width: 70;
+            position: absolute;
+            right: 1;
+            bottom: -77px;
+        }
+    }
+    .btmright {
+        position: absolute;
+        right: -40px;
+        bottom: -50px;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+   
+
+
+
+
+  .borderpurple2 {
+    position: absolute;
+    top: -33px;
+    right: -31px;
+    height: 120%;
+}
+
+.border-buttom {
+    height: 3px;
+    width: 80%;
+    background-color: #FDD835;
+    margin: 15px 0;
+    background-image: linear-gradient(to right, #FDD835, #7E57C2);
+}
+.btmright {
+    width: 70;
+    position: absolute;
+    right: -19px;
+    bottom: -77px;
+}
+
+.clmcentertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 74px;
+}
+.clmcentertext h1 {
+    font-size: 19px;
+}
+
+.btmright {
+    width: 37%;
+    position: absolute;
+    right: -16px;
+    bottom: -42px;
+}
+.clm-text h1 {
+    font-size: 24px;
+}
+.center-content h1 {
+    font-size: 24px;
+}
+
+.purpleshade {
+    margin-top: 20px;
+    background-color: #F2EEF9;
+    padding: 0px 2px;
+    width: 100%;
+}
+.clmcentertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 14px;
+}   
+
+.clm-text ul li {
+    font-size: 13px;
+    color: #555555;
+    margin: 15px 0;
+}.HEROIMG {
+    margin-top: -81px;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+
+.navbar {
+    border-bottom: 0.1px solid #11111133;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+
+.purple-btn {
+    padding: 12px 24px;
+    background-color: #7E57C2;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.yellowlastsection {
+width: 80%;
+padding: 10PX;
+height: 200PX;
+
+}
+
+.borderpurple {
+    position: absolute;
+    top: -21px;
+    left: 19px;
+    height: 121%;
+}
+
+.borderpurple2 {
+    position: absolute;
+    top: -20px;
+    right: 15px;
+    height: 119%;
+    width: 83%;
+}
+.whitering2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 31%;
+}
+.whitering{
+    position: absolute;
+    bottom:  0px;
+    right: 0px;
+    width: 31%;
+}
+.yellowlastsection h1 {
+font-size: 18px;
+
+
+
+
+}
+
+
+
+
+
+.btn-outline {
+    color: #7E57C2;
+    background-color: transparent;
+    border: 1px solid #7E57C2;
+    border-radius: 12px;
+    font-size: 11px;
+    padding: 10px 30px 12px 29px;
+}
+
+
+
+
+footer {
+    background-color: #7E57C2;
+    padding: 24px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .borderpurple {
+        position: absolute;
+        top: -21px;
+        left: 11px;
+        height: 121%;
+    }
+
+
+}
